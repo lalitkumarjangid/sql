@@ -50,6 +50,16 @@ SELECT * FROM studentdata WHERE city = "PTANAHI" LIMIT 4;
 
 -- 3RD CLAUSE IS "ORDER BY "
 
+SELECT * FROM studentdata ORDER BY marks ASC;
+-- Decending order
+SELECT * FROM studentdata ORDER BY marks DESC;
+SELECT * FROM studentdata ORDER BY marks DESC LIMIT 3;
+
+-- 4TH CLAUSE (GROUP BY)
+
+-- IN 5TH DATABASE IN 5Aggregate.sql file
+
+
 
 
 
